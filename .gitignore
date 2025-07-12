@@ -1,13 +1,6 @@
-# dependencies
 node_modules/
-
-# production
 dist/
-
-# misc
+.vscode/
 .DS_Store
 .env
 *.log
-
-# local VSCode settings
-.vscode/
