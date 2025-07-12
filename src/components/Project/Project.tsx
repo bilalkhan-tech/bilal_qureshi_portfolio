@@ -3,8 +3,10 @@ import githubIcon from "../../assets/github.svg";
 // import DownloadApp from '../../assets/download.webp'
 import externalLink from "../../assets/external-link.svg";
 import ScrollAnimation from "react-animate-on-scroll";
+import { useState } from "react";
 
 export function Project() {
+  const [showAllProjects, setShowAllProjects] = useState(false);
   return (
     <Container id="project">
       <h2>My Projects</h2>
@@ -27,13 +29,6 @@ export function Project() {
                 <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
               </svg>
               <div className="project-links">
-                {/* <a
-                  href="https://play.google.com/store/apps/details?id=com.carvonixllc.carvonixUserApp&hl=en"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <img src={githubIcon} alt="GitHub" />
-                </a> */}
                 <a
                   href="https://ai-chatbot-t8fn.onrender.com"
                   target="_blank"
